@@ -9,5 +9,10 @@ public interface DoctorService
    Doctor addDoctor(Doctor d);
    Doctor updateDoctor(Doctor d);
    List<Doctor> displayAllDoctors();
+   Doctor dispalyDoctorById(Long id);
+   String deleteDoctorById(Long id);
+   List<Doctor> displayDoctorByGender(String gender);
+   
+   
    
 }
