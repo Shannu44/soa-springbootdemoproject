@@ -79,5 +79,10 @@ private DoctorRepository repo;
 	{
 		return repo.findByGender(gender);
 	}
+	
+	@Override
+	public Long doctorCount() {
+		return repo.count();
+	}
     
 }
